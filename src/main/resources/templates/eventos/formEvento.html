@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html  xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
     <title>Eventos</title>
 </head>
 
 <body>
+     <div th:replace="~{menu :: menu}"></div>
+	   <div th:replace="~{menu :: menu}"></div>
+	 <div class="container"> 
+	</div>
 
     <h1>Adicionar Evento</h1>
 
@@ -32,9 +40,9 @@
             <input type="text" name="horario">
         </div>
 
-        <button type="submit">Salvar</button>
+        <button class="waves-effect waves-light btn " type="submit">Salvar</button>
 
-        <button type="reset">Limpar</button>
+        <button class="waves-effect waves-light btn " type="reset">Limpar</button>
 
     </form>
 
