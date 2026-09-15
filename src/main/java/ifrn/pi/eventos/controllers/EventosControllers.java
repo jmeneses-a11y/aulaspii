@@ -1,4 +1,4 @@
-package ifrn.pi.eventos.models;
+package ifrn.pi.eventos.controllers;
 
 import java.util.List;
 
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import ifrn.pi.eventos.models.Evento;
 import ifrn.pi.eventos.repositories.EventoRepository;
 
 @Controller
