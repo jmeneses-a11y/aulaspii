@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <title>Eventos</title>
+</head>
+
+<body>
+     <div th:replace="~{menu :: menu}"></div>
+	   <div th:replace="~{menu :: menu}"></div>
+	 <div class="container"> 
+	</div>
+
+    <h1>Lista de eventos</h1>
+
+     	<table> 
+     	
+     	<thead> 
+     	<tr>
+     	    <th> Id </th>
+     	    <th> Nome</th>
+     	    <th> Local</th>
+     	    <th> Data </th>
+     	    <th> Horario</th>
+  
+     	   </tr>
+     	
+     	
+     	<thead> 
+     	<tbody>
+     	<tr> 
+     		<td>1</td>
+     		<td>Aniversario de joão</td>
+     		<td>Clube</td>
+     		<td>25/02/2021</td>
+     		<td>19:00 </td>
+     		</tr>
+     	</tbody>
+     	</table>
+</body>
+
+</html>
